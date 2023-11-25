@@ -1,4 +1,4 @@
-#My Portfolio
+My Portfolio
 
 Welcome to my GitHub repository for my personal portfolio! This repository contains the code and assets for my online portfolio, showcasing my skills, projects, and achievements. Feel free to explore and learn more about me and my work.
 
