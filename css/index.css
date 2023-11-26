@@ -50,52 +50,77 @@ footer a{
     background-size: contain;
     background-repeat: no-repeat;
     margin:0 1% 1% 1% ;
+    position: relative;
 }
 
-#linkedin {
+footer a::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: opacity 0.6s ease, background-image 0.6s ease;
+}
+
+#linkedin::before {
     background-image: url(../images/linkedin.png);
   }
-  
-#linkedin:hover {
-    background-image: url(../images/linkedin_colored.png);
-  }
-  
 
-
-#gmail {
+  #gmail::before {
     background-image: url(../images/gmail.png);
   }
-  
-#gmail:hover {
-    background-image: url(../images/gmail_colored.png);
-  }
 
-
-
-#codeforces {
+  #codeforces::before {
     background-image: url(../images/codeforces.png);
   }
 
-#codeforces:hover {
-    background-image: url(../images/codeforces_colored.png);
-  }
-  
-
-
-#github {
+  #github::before {
     background-image: url(../images/github_reversed.png);
   }
 
-#github:hover {
-    background-image: url(../images/github.png);
-  }
-
-
-  
-#whatsapp {
+  #whatsapp::before {
     background-image: url(../images/whatsapp.png);
   }
-  
-#whatsapp:hover {
-    background-image: url(../images/whatsapp_colored.png);
+
+  footer a:hover::before{
+    opacity: 0;
   }
+
+
+footer a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+#linkedin::after{
+  background-image: url(../images/linkedin_colored.png);
+}
+
+#gmail::after {
+  background-image: url(../images/gmail_colored.png);
+}
+#codeforces::after {
+  background-image: url(../images/codeforces_colored.png);
+}
+#github::after {
+  background-image: url(../images/github.png);
+}
+#whatsapp::after {
+  background-image: url(../images/whatsapp_colored.png);
+}
+
+footer a:hover::after{
+  opacity: 1;
+}
