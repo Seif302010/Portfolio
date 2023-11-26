@@ -45,9 +45,57 @@ footer{
 }
 
 footer a{
-    margin:0 1% 0 1% ;
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:0 1% 1% 1% ;
 }
 
-footer img{
-    max-width: 45px;
-}
+#linkedin {
+    background-image: url(../images/linkedin.png);
+  }
+  
+#linkedin:hover {
+    background-image: url(../images/linkedin_colored.png);
+  }
+  
+
+
+#gmail {
+    background-image: url(../images/gmail.png);
+  }
+  
+#gmail:hover {
+    background-image: url(../images/gmail_colored.png);
+  }
+
+
+
+#codeforces {
+    background-image: url(../images/codeforces.png);
+  }
+
+#codeforces:hover {
+    background-image: url(../images/codeforces_colored.png);
+  }
+  
+
+
+#github {
+    background-image: url(../images/github_reversed.png);
+  }
+
+#github:hover {
+    background-image: url(../images/github.png);
+  }
+
+
+  
+#whatsapp {
+    background-image: url(../images/whatsapp.png);
+  }
+  
+#whatsapp:hover {
+    background-image: url(../images/whatsapp_colored.png);
+  }
