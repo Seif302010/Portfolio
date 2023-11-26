@@ -6,8 +6,30 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    /* height: 100vh; */
 }
-h1{
+
+#Greetings{
+    margin-top: 10%;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
     color: white;
+    margin: 5px;
+}
+
+#hi{
+    color:red;
+    letter-spacing: 2px;
+    font-family: Arial black, sans-serif;
+}
+
+#job{
+    font-family: "Arial", sans-serif;
+}
+
+#name{
+    font-size: 70px;
 }
