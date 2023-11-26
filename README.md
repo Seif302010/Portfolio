@@ -48,7 +48,8 @@ Technologies Used
 
 Deployment
 
-The portfolio is deployed and hosted on GitHub. You can access it live at https://seif302010.github.io/Portfolio/.
+The portfolio is deployed and hosted on GitHub. You can access it live at https://seif302010.github.io/Portfolio/
+
 Contributing
 
 If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. Contributions are welcome!
