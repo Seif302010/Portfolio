@@ -9,7 +9,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
 }
 
 #Greetings{
@@ -70,23 +69,23 @@ footer a::before{
     background-image: url(../images/linkedin.png);
   }
 
-  #gmail::before {
+#gmail::before {
     background-image: url(../images/gmail.png);
   }
 
-  #codeforces::before {
+#codeforces::before {
     background-image: url(../images/codeforces.png);
   }
 
-  #github::before {
+#github::before {
     background-image: url(../images/github_reversed.png);
   }
 
-  #whatsapp::before {
+#whatsapp::before {
     background-image: url(../images/whatsapp.png);
   }
 
-  footer a:hover::before{
+footer a:hover::before{
     opacity: 0;
   }
 
@@ -120,6 +119,7 @@ footer a::after{
 #whatsapp::after {
   background-image: url(../images/whatsapp_colored.png);
 }
+
 
 footer a:hover::after{
   opacity: 1;
