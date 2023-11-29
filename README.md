@@ -57,7 +57,7 @@ License
 
 Contact
 
-    Email: seif302010@gmail.com.com
+    Email: seif302010@gmail.com
     LinkedIn: https://www.linkedin.com/in/seif-hegazy-795269242/
     Phone: +201275673568
 
