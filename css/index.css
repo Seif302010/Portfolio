@@ -62,7 +62,7 @@ footer a::after{
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: opacity 0.6s ease, background-image 0.6s ease;
+  transition: opacity 0.7s ease, background-image 0.7s ease;
 }
 
 footer a::before{
@@ -93,7 +93,7 @@ footer a::after{
     background-image: url(../images/whatsapp.png);
   }
 
-  
+
 
 #linkedin::after{
   background-image: url(../images/linkedin_colored.png);
