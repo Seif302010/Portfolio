@@ -75,23 +75,22 @@ footer a::after{
 
 #linkedin::before {
     background-image: url(../images/linkedin.png);
-  }
-
+}
 #gmail::before {
     background-image: url(../images/gmail.png);
-  }
-
+}
 #codeforces::before {
     background-image: url(../images/codeforces.png);
-  }
-
+}
 #github::before {
     background-image: url(../images/github_reversed.png);
-  }
-
+}
 #whatsapp::before {
     background-image: url(../images/whatsapp.png);
-  }
+}
+#cv::before {
+    background-image: url(../images/cv.png);
+}
 
 
 
@@ -110,6 +109,9 @@ footer a::after{
 }
 #whatsapp::after {
   background-image: url(../images/whatsapp_colored.png);
+}
+#cv::after {
+  background-image: url(../images/cv_reversed.png);
 }
 
 footer a:hover::before{
