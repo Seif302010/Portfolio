@@ -1,6 +1,6 @@
 My Portfolio
 
-Welcome to my GitHub repository for my personal portfolio! This repository contains the code and assets for my online portfolio, showcasing my skills, projects, and achievements. Feel free to explore and learn more about me and my work.
+Welcome to my GitHub repository for my portfolio! This repository contains the code and assets for my online portfolio, showcasing my skills, projects, and achievements. Feel free to explore and learn more about me and my work.
 
 Table of Contents
 
@@ -21,14 +21,14 @@ Features
 
     Responsive Design: The portfolio is designed to be accessible and visually appealing across various devices and screen sizes.
     Project Showcase: Highlighting key projects with detailed information about each, including technologies used and outcomes.
-    Skills Section: A comprehensive list of my skills and technologies I am proficient in.
+    Skills Section: A comprehensive list of the skills and technologies I am proficient in.
     Contact Form: An easy way for visitors to get in touch with me.
 
 Getting Started
 
 To view my portfolio locally, follow these steps:
 
-    Clone this repository: git clone [https://github.com/your-username/your-portfolio.git](https://github.com/Seif302010/Portfolio.git)
+    Clone this repository: git clone [https://github.com/Seif302010/Portfolio.git]
     Open the index.html file in your web browser.
 
 Project Structure
