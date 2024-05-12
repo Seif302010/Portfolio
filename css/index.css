@@ -93,14 +93,6 @@ footer a::after{
   transition: opacity 0.7s ease, background-image 0.7s ease;
 }
 
-footer a::before{
-  opacity: 1;
-}
-
-footer a::after{
-  opacity: 0;
-}
-
 #linkedin::before {
     background-image: url(../images/linkedin.png);
 }
@@ -142,10 +134,12 @@ footer a::after{
   background-image: url(../images/cv_reversed.png);
 }
 
-footer a:hover::before{
-  opacity: 0;
-}
-
+footer a::before,
 footer a:hover::after{
   opacity: 1;
+}
+
+footer a:hover::before,
+footer a::after{
+  opacity: 0;
 }
